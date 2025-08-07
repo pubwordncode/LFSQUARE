@@ -233,7 +233,7 @@
 	
 	
 	
-		<header id="header" class="bg_g" style=" padding: 10px 20px 10px 20px;">
+		<header id="header" class="bg_w" style=" padding: 10px 20px 10px 20px;">
 			<div class="inner">
 				<button type="button" id="btn_back">뒤로가기</button>
 			</div>
@@ -241,8 +241,8 @@
 				<h1 class="full_title"></h1>
 			</div>
 			<div class="inner">
-				<button type="button" id="btn_alarm" onclick="location.href='/display/alarm/form'">알림<span class="count">0</span></button>
-				<button type="button" id="btn_cart" onclick="cfnGoToPage(_PAGE_CART);">장바구니<span class="count">0</span></button>
+				<button type="button" id="btn_search" onclick="cfnGoToPage(_PAGE_GOODS_SEARCH);">검색</button>
+				<button type="button" id="btn_alarm" onclick="location.href='/display/alarm/form'">알림<span class="count">4</span></button>
 			</div>
 		</header>
 	
@@ -877,13 +877,13 @@ var fnGetDefaultKeyword = function() {
 		<!-- 리뷰 베스트 일떄 -->
 		
 	</div>
-
+	<!--
 	<div class="category_nav">
 		<ul id="category_nav">
 
 		</ul>
 	</div>
-	
+	-->
 	<div class="select_form">
 		<button class="best_standard" type="button" data-bestgb="G">베스트 집계 기준</button>
 		<ul>

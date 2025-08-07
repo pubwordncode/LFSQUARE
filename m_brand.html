@@ -790,31 +790,79 @@
       <div id="search_main" class="result">
         <div class="wrap">
           <div class="con">
-            <div class="title_box">
-              <div class="search_box" id="search">
-                <input type="text" name="searchTxt" id="gnbDefaultKeyword" placeholder="어떤 상품을 찾으세요?" maxlength="50"
-                  value="게스">
-                <input type="hidden" id="placeholderText" />
-                <input type="hidden" id="placeholderUrl" />
-
-                <div class="icon_wrap">
-                  <button type="button" class="delete">삭제</button>
-                  <button type="button" class="search" onclick="fnSearchGoods('goods');">검색</button>
-
-
-
+            <div class="con_wrap">
+              <!-- 워드앤코드 영역 추가 -->
+              <div class="poster-wrap">
+                <div class="poster">
+                  <span>
+                    <img alt="이미지0" src="https://pre.thesquaremall.co.kr/ux/images/common/brand-ex-img.jpg" />
+                  </span>
                 </div>
-
-
-                <div class="com_word">
-                  <ul id="autokeyword"></ul>
+                <div class="explain-box">
+                  <div class="txt-box">
+                    <p class="sub-tit">HAZZYS</p>
+                    <p class="tit">헤지스</p>
+                    <p class="txt">현재를 살아가는 사람들의 일상 속 행복한<br>
+                    순간에 떠오르는 브랜드입니다.</p>
+                  </div>
+                  <div class="link_wrap">
+                    <div class="wish_btn">
+                      <input class="input_none input_like" id="like" type="checkbox">
+                      <label id="wishBtn" class="like wish brandbtn " for="like" onclick="cfnPutWishList(this,event); return false;" data-goodscd="SQE000995779" data-plandtlsq=""><span>좋아요</span></label>
+                      <div class="share">
+                        <button type="button" class="share_btn">공유하기</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-box">
+                    <div class="swiper-container brand_thumb_swiper">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide goods-slide">
+                          <img alt="이미지0" src="https://pre.thesquaremall.co.kr/ux/images/common/brand-thumb-ex-img.jpg" />
+                        </div>
+                        <div class="swiper-slide goods-slide">
+                          <img alt="이미지1" src="https://pre.thesquaremall.co.kr/ux/images/common/brand-thumb-ex-img.jpg" />
+                        </div>
+                      </div>
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                    </div>
+                    <p class="brand_thumb-txt">헤지스 멤버스 15%할인 혜택</p>
+                  </div>
                 </div>
               </div>
-              <!-- 연관검색어 -->
-
-
-            </div>
-            <div class="con_wrap">
+              <div class="center-cate-list">
+                <ul>
+                  <li class="active">
+                    <button type="button"><span>아우터</span></button>
+                  </li>
+                  <li>
+                    <button type="button"><span>상의</span></button>
+                  </li>
+                  <li>
+                    <button type="button"><span>팬츠</span></button>
+                  </li>
+                  <li>
+                    <button type="button"><span>가방</span></button>
+                  </li>
+                  <li>
+                    <button type="button"><span>스커트</span></button>
+                  </li>
+                  <li>
+                    <button type="button"><span>상의</span></button>
+                  </li>
+                  <li>
+                    <button type="button"><span>팬츠</span></button>
+                  </li>
+                  <li>
+                    <button type="button"><span>가방</span></button>
+                  </li>
+                  <li>
+                    <button type="button"><span>스커트</span></button>
+                  </li>
+                </ul>
+              </div>
+              <!-- //워드앤코드 영역 추가 -->
               <div class="search_return">
                 <div class="sort01 tabmenu">
                   <ul>
